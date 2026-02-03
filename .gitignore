@@ -1,0 +1,5 @@
+completeAgentSetup.py/.env
+fastApiImageADK/.env
+.venv
+.adk
+.github/copilot-instructions.md
