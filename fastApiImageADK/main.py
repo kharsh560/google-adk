@@ -24,3 +24,4 @@ async def process(prompt: str = Form(...), file: UploadFile = File(...)):
     
 # uvicorn main:app --reload --host 127.0.0.1 --port 8000
 # http://127.0.0.1:8000/docs
+# Hey!
