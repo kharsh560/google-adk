@@ -104,6 +104,8 @@ async def call_agent_async(query: str, base64_blob: str):
           types.Part(text=" imageBlobEnd")
       ]
   )
+  
+  print(f"actual content as it is: {content}")
 
   final_response_text = "Agent did not produce a final response." # Default
 
