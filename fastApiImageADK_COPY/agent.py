@@ -27,6 +27,7 @@ _session = None
 _runner = None
 
 async def _ensure_initialized():
+    
     """Ensure session and runner are initialized (lazy initialization)."""
     global _session, _runner
     
