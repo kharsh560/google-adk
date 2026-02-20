@@ -9,6 +9,7 @@ from agent import call_agent_async
 app = FastAPI(title="prompt+file processor API")
 
 @app.post("/process")
+
 async def process(prompt: str = Form(...), file: UploadFile = File(...)):
     try:
         # read bytes from UploadFile
